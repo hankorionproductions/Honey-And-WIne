@@ -32,10 +32,10 @@ h1, h2, h3, h4, h5,
   border-width: 0px; }
 
 .text-black {
-  color: #000 !important; }
+  color: #000000 !important; }
 
 .bg-black {
-  background: #000 !important; }
+  background: #000000 !important; }
 
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
@@ -73,32 +73,32 @@ body:after {
     border-color: #207561;
     color: #fff; }
     .btn.btn-primary:hover {
-      background: #000;
-      border-color: #000;
-      color: #fff; }
+      background: #000000;
+      border-color: #000000;
+      color: #000000; }
     .btn.btn-primary.btn-black--hover:hover {
-      background: #666666;
-      color: #fff; }
+      background: #000000;
+      color: #000000; }
 
 .line-height-1 {
   line-height: 1 !important; }
 
 .bg-black {
-  background: #000; }
+  background: #000000; }
 
 .form-control {
-  height: 43px;
-  border-radius: 30px;
+  height: 0px;
+  border-radius: 0px;
   font-family: "Arbutus Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
-    border-color: #207561; }
+    border-color: #000000; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
 .site-section {
   padding: 2.5em 0; }
-  @media (min-width: 768px) {
+  @media (min-width: 100%) {
     .site-section {
       padding: 7em 0; } }
   .site-section.site-section-sm {
@@ -109,37 +109,37 @@ body:after {
   margin-bottom: 0px;
   position: relative;
   font-size: 2.5rem; }
-  @media (min-width: 768px) {
+  @media (min-width: 100%) {
     .site-section-heading {
       font-size: 3rem; } }
 
 .site-footer {
   padding: 4em 0;
   background: #333333; }
-  @media (min-width: 768px) {
+  @media (min-width: 100%) {
     .site-footer {
       padding: 8em 0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
-    color: #737373; }
+    color: #000000; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #fff; }
   .site-footer a {
-    color: #999999; }
+    color: #000000; }
     .site-footer a:hover {
       color: white; }
   .site-footer ul li {
     margin-bottom: 10px; }
   .site-footer .footer-heading {
-    font-size: 16px;
-    color: #fff; }
+    font-size: 6px;
+    color: #000000; }
 
 .bg-text-line {
   display: inline;
-  background: #000;
+  background: #000000;
   -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
-  box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
+  box-shadow: 0px 0 0 #000, -20px 0 0 #000; }
 
 .text-white-opacity-05 {
   color: rgba(255, 255, 255, 0.5); }
@@ -201,7 +201,7 @@ body:after {
   width: 90px;
   height: 90px;
   display: inline-block;
-  border: 2px solid #fff;
+  border: 0px solid #fff;
   color: #fff !important;
   border-radius: 50%;
   position: relative;
@@ -283,7 +283,7 @@ body:after {
       color: #000000 !important; }
   .site-navbar .site-navigation .site-menu {
     margin: 0;
-    padding: 0;
+    padding: 10px;
     margin-bottom: 0;
     font-family: "Arbutus Slab", serif; }
     .site-navbar .site-navigation .site-menu a {
