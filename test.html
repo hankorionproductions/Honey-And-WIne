@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<title>Film Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-white">
+
+
+<div class="w3-content" style="max-width:100%">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-0 w3-white">
+    <h1 class="w3-xxxlarge"><b>HONEY&WINE</b></h1>
+    <h6>COMING SOON</h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="images/face.png" alt="Honey And Wine" width="100%" height="100%">
+    <div class="w3-display-left w3-padding-large ">
+      <!-- <h1 class="w3-text-white">Jane's</h1> -->
+      <!-- <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>COMING SOON</b></h1> -->
+      <!-- <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6> -->
+    </div>
+  </header>
+
+
+      <!-- ABOUT -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>ABOUT THE FILM</h3>
+        </div>
+
+        <div class="w3-justify">
+          <!-- <img src="/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16"> -->
+          <p>Honey And Wine is a romantic drama with elements of comedy. Written by Hank Orion and Doug Rawdon. The story takes place in modern London and shows the lead character Steve, who is stuck in a corporate loophole. One day on a business trip he meets Amanda, an escort worker that has more to her than just the look, the drive and the sexuality.</p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- CAST/CREW -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>CAST&CREW</h3>
+          <br>
+          <h5>Evita Zhu<span class="w3-opacity">Amanda</span></h5>
+            <h5>Trent Hocking<span class="w3-opacity">Steve</span></h5>
+            <br>
+              <h5>Hank Orion<span class="w3-opacity">Writer/Director</span></h5>
+                <h5>Doug Rawdon<span class="w3-opacity">Co-Writer</span></h5>
+        </div>
+
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-center" style="padding:32px">
+  <!-- <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a> -->
+  <p>Honey And Wine | Hank Orion Productions | Design by <a href="http://adjective.design" target="_blank">Adjective Design</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
